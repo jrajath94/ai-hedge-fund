@@ -17,7 +17,7 @@ This system employs several agents working together:
 11. Risk Manager - Calculates risk metrics and sets position limits
 12. Portfolio Manager - Makes final trading decisions and generates orders
 
-<img width="1020" alt="Screenshot 2025-03-08 at 4 45 22 PM" src="https://github.com/user-attachments/assets/d8ab891e-a083-4fed-b514-ccc9322a3e57" />
+<img width="1020" alt="Screenshot 2025-03-08 at 4 45 22 PM" src="https://github.com/user-attachments/assets/d8ab891e-a083-4fed-b514-ccc9322a3e57" />
 
 **Note**: the system simulates trading decisions, it does not actually trade.
 
@@ -98,7 +98,7 @@ poetry run python src/main.py --ticker AAPL,MSFT,NVDA
 ```
 
 **Example Output:**
-<img width="992" alt="Screenshot 2025-01-06 at 5 50 17 PM" src="https://github.com/user-attachments/assets/e8ca04bf-9989-4a7d-a8b4-34e04666663b" />
+<img width="992" alt="Screenshot 2025-01-06 at 5 50 17 PM" src="https://github.com/user-attachments/assets/e8ca04bf-9989-4a7d-a8b4-34e04666663b" />
 
 You can also specify a `--show-reasoning` flag to print the reasoning of each agent to the console.
 
@@ -118,7 +118,7 @@ poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA
 ```
 
 **Example Output:**
-<img width="941" alt="Screenshot 2025-01-06 at 5 47 52 PM" src="https://github.com/user-attachments/assets/00e794ea-8628-44e6-9a84-8f8a31ad3b47" />
+<img width="941" alt="Screenshot 2025-01-06 at 5 47 52 PM" src="https://github.com/user-attachments/assets/00e794ea-8628-44e6-9a84-8f8a31ad3b47" />
 
 You can optionally specify the start and end dates to backtest over a specific time period.
 
